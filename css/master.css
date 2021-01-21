@@ -27,10 +27,9 @@ body{
   background-color: white;
   display: inline-block;
   margin-right: 53px;
-  background-image: url(../img/pattern.png);
-  background-size: contain;
   border: 1px solid black;
   border-radius: 10px;
+  position: relative;
 }
 .riga :last-child{
   margin-right: 0;
@@ -38,9 +37,34 @@ body{
 .riga{
   margin-bottom: 16px;
 }
-.immagini{
-  height: 200px;
-  width: 185;
+.imge{
+  width: 150px;
+  height: 155px;
+  position: absolute;
+  left: 15px;
+}
+.img{
+  opacity: 0;
+  position: relative;
+}
+.blocco:hover .img{
+  opacity: 1;
+}
+.a{
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  width: 180px;
+  height:178px;
+  background-color: white;
+  border-radius: 10px;
+}
+.blocco:hover .a{
+  opacity: 0;
+}
+.text{
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
 }
 .footer{
   font-size: 20px;
@@ -49,4 +73,41 @@ body{
 }
 footer{
   width: 100%;
+}
+.submarine{
+  position: absolute;
+  bottom: -180px;
+  left: 15px;
+  color: blue;
+}
+.ship{
+  position: absolute;
+  bottom: -180px;
+  left: 70px;
+  color: lightblue;
+}
+.tractor{
+  position: absolute;
+  bottom: -180px;
+  left: 40px;
+  color: orange;
+}
+.tram{
+  position: absolute;
+  bottom: -180px;
+  left: 50px;
+  color: brown;
+}
+.air-baloon{
+  position: absolute;
+  bottom: -180px;
+  left: 30px;
+  color: pink;
+  font-size: 30px;
+}
+.bicycle{
+  position: absolute;
+  bottom: -180px;
+  left: 40px;
+  color: yellow;
 }
