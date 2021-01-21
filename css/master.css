@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #b9f2ff
+}
+.container{
+  margin: 6% 20% 5% 20%;
+  width: 60%;
+  height: 640px;
+}
+.blocco{
+  width: 185px;
+  height:200px;
+  background-color: white;
+  display: inline-block;
+  margin-right: 53px;
+}
+.riga :last-child{
+  margin-right: 0;
+}
+.riga{
+  margin-bottom: 16px;
+}
