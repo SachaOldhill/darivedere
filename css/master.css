@@ -50,7 +50,7 @@ body{
 .blocco:hover .img{
   opacity: 1;
 }
-.a{
+.pattern{
   background-image: url(../img/pattern.png);
   background-size: contain;
   width: 180px;
@@ -58,13 +58,8 @@ body{
   background-color: white;
   border-radius: 10px;
 }
-.blocco:hover .a{
+.blocco:hover .pattern{
   opacity: 0;
-}
-.text{
-  font-size: 35px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  position: absolute;
 }
 .footer{
   font-size: 20px;
@@ -73,6 +68,11 @@ body{
 }
 footer{
   width: 100%;
+}
+.text{
+  font-size: 35px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  position: absolute;
 }
 .submarine{
   position: absolute;
